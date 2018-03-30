@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.storage.samples
+  id: samples
+  children:
+  - com.microsoft.azure.storage.samples._basic_sample
+  href: com.microsoft.azure.storage.samples.yml
+  langs:
+  - java
+  name: com.microsoft.azure.storage.samples
+  nameWithType: com.microsoft.azure.storage.samples
+  fullName: com.microsoft.azure.storage.samples
+  type: Namespace
+  source:
+    remote:
+      path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
+      branch: async-samplesInDocTest
+      repo: https://github.com/rickle-msft/azure-storage-java
+    path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
+    startLine: 7
+  syntax:
+    content: package com.microsoft.azure.storage.samples
+references:
+- uid: com.microsoft.azure.storage.samples._basic_sample
+  parent: com.microsoft.azure.storage.samples
+  href: com.microsoft.azure.storage.samples._basic_sample.yml
+  name: BasicSample
+  nameWithType: BasicSample
+  fullName: com.microsoft.azure.storage.samples.BasicSample
+  type: Class
+  syntax:
+    content: public class BasicSample

@@ -1,0 +1,57 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.storage.samples._basic_sample
+  id: _basic_sample
+  parent: com.microsoft.azure.storage.samples
+  children:
+  - com.microsoft.azure.storage.samples._basic_sample.main(String [])
+  href: com.microsoft.azure.storage.samples._basic_sample.yml
+  langs:
+  - java
+  name: BasicSample
+  nameWithType: BasicSample
+  fullName: com.microsoft.azure.storage.samples.BasicSample
+  type: Class
+  source:
+    remote: &o0
+      path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
+      branch: async-samplesInDocTest
+      repo: https://github.com/rickle-msft/azure-storage-java
+    path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
+    startLine: 41
+  package: com.microsoft.azure.storage.samples
+  syntax:
+    content: public class BasicSample
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.storage.samples._basic_sample.main(String [])
+  id: main(String [])
+  parent: com.microsoft.azure.storage.samples._basic_sample
+  href: com.microsoft.azure.storage.samples._basic_sample.yml
+  langs:
+  - java
+  name: main(String[] args)
+  nameWithType: BasicSample.main(String[] args)
+  fullName: static void com.microsoft.azure.storage.samples.BasicSample.main(String[] args)
+  overload: com.microsoft.azure.storage.samples._basic_sample.main*
+  type: Method
+  source:
+    remote: *o0
+    path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
+    startLine: 72
+  package: com.microsoft.azure.storage.samples
+  syntax:
+    content: public static void main(String[] args)
+    parameters:
+    - id: args
+      type: 1bb63ab0
+references:
+- uid: 1bb63ab0
+  spec.java:
+  - name: String []
+    fullName: String []
+- uid: com.microsoft.azure.storage.samples._basic_sample.main*
+  name: main
+  nameWithType: BasicSample.main
+  fullName: static void com.microsoft.azure.storage.samples.BasicSample.main
+  package: com.microsoft.azure.storage.samples
