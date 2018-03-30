@@ -65,7 +65,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 302
+    startLine: 303
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Acquires a lease on the container for delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</ulink>.</p>
@@ -108,7 +108,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 389
+    startLine: 390
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Breaks the container's previously-acquired lease. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</ulink>.</p>
@@ -148,7 +148,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 419
+    startLine: 420
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Changes the container's leaseID. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</ulink>.</p>
@@ -214,14 +214,13 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 152
+    startLine: 153
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a new container within a storage account. If a container with the same name already exists, the operation fails. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/create-container">Azure Docs</ulink>.</p>
 
-    <p>[!code-java[Sample_Code](...............java::Sample_code1 "Sample code for ContainerURL.create")]</p>
-
     <p></p>
+  remarks: '[!code-java[Sample_Code](...............java::Sample_code1 "Sample code for ContainerURL.create")]'
   syntax:
     content: public Single<ContainersCreateResponse> create(Metadata metadata, PublicAccessType accessType)
     parameters:
@@ -381,7 +380,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 169
+    startLine: 170
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Marks the specified container for deletion. The container and any blobs contained within it are later deleted during garbage collection. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/delete-container">Azure Docs</ulink>.</p>
@@ -415,7 +414,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 244
+    startLine: 245
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns the container's permissions. The permissions indicate whether container's blobs may be accessed publicly. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/get-container-acl">Azure Docs</ulink>.</p>
@@ -449,7 +448,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 196
+    startLine: 197
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns the container's metadata and system properties. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/get-container-metadata">Azure Docs</ulink>.</p>
@@ -483,7 +482,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 452
+    startLine: 453
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns a single segment of blobs starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Blob names are returned in lexicographic order. After getting a segment, process it, and then call ListBlobs again (passing the the previously-returned Marker) to get the next segment. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/list-blobs">Azure Docs</ulink>.</p>
@@ -520,7 +519,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 480
+    startLine: 481
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns a single segment of blobs and blob prefixes starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Blob names are returned in lexicographic order. After getting a segment, process it, and then call ListBlobs again (passing the the previously-returned Marker) to get the next segment. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/list-blobs">Azure Docs</ulink>.</p>
@@ -560,7 +559,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 358
+    startLine: 359
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Releases the container's previously-acquired lease. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</ulink>.</p>
@@ -597,7 +596,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 330
+    startLine: 331
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Renews the container's previously-acquired lease. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</ulink>.</p>
@@ -634,7 +633,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 269
+    startLine: 270
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the container's permissions. The permissions indicate whether blobs in a container may be accessed publicly. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/set-container-acl">Azure Docs</ulink>.</p>
@@ -674,7 +673,7 @@ items:
   source:
     remote: *o0
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 215
+    startLine: 216
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the container's metadata. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/set-container-metadata">Azure Docs</ulink>.</p>
