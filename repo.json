@@ -31,7 +31,7 @@
             "name": "elastic-db-tools-for-java"
         },
         {
-            "url": "https://github.com/Azure/azure-storage-java",
+            "url": "https://github.com/rickle-msft/azure-storage-java",
             "branch": "async-samplesInDocTest",
             "name": "azure-storage-java"
         },
