@@ -220,7 +220,7 @@ items:
     <p>Creates a new container within a storage account. If a container with the same name already exists, the operation fails. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/create-container">Azure Docs</ulink>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](~/_sample/azure-storage/src/test/java/com/microsoft/azure/storage/BlobStorageAPITests.java?name={Sample_code1} "Sample code for ContainerURL.create")]'
+  remarks: '[!code-java[Sample_Code](~/azure-storage-java/azure-storage/src/test/java/com/microsoft/azure/storage/BlobStorageAPITests.java?name={Sample_code1} "Sample code for ContainerURL.create")]'
   syntax:
     content: public Single<ContainersCreateResponse> create(Metadata metadata, PublicAccessType accessType)
     parameters:
