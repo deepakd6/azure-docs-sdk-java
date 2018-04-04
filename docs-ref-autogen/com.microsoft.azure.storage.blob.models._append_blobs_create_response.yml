@@ -17,7 +17,7 @@ items:
     remote: &o0
       path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/models/AppendBlobsCreateResponse.java
       branch: async-samplesInDocTest
-      repo: https://github.com/rickle-msft/azure-storage-java
+      repo: https://github.com/dend/azure-storage-java
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/models/AppendBlobsCreateResponse.java
     startLine: 18
   package: com.microsoft.azure.storage.blob.models

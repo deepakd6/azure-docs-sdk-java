@@ -64,7 +64,7 @@ items:
     remote:
       path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
       branch: async-samplesInDocTest
-      repo: https://github.com/rickle-msft/azure-storage-java
+      repo: https://github.com/dend/azure-storage-java
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/AccountSASPermission.java
     startLine: 14
   syntax:

@@ -16,7 +16,7 @@ items:
     remote: &o0
       path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
       branch: async-samplesInDocTest
-      repo: https://github.com/rickle-msft/azure-storage-java
+      repo: https://github.com/dend/azure-storage-java
     path: samples/src/main/java/com/microsoft/azure/storage/samples/BasicSample.java
     startLine: 41
   package: com.microsoft.azure.storage.samples
