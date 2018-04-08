@@ -219,6 +219,6 @@ references:
   nameWithType: ServiceURL
   fullName: com.microsoft.azure.storage.blob.ServiceURL
   type: Class
-  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <ulink url="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</ulink></p>'
+  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p>'
   syntax:
     content: public class ServiceURL

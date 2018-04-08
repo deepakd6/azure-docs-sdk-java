@@ -26,7 +26,7 @@ items:
     path: azure-storage/src/main/java/com/microsoft/azure/storage/blob/ServiceURL.java
     startLine: 30
   package: com.microsoft.azure.storage.blob
-  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <ulink url="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</ulink></p>'
+  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p>'
   syntax: &o1
     content: public class ServiceURL extends StorageURL
   inheritance:
@@ -79,7 +79,7 @@ items:
     startLine: 101
   package: com.microsoft.azure.storage.blob
   summary: >-
-    <p>Gets the properties of a storage account’s Blob service. For more information, see the <ulink url="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-properties">Azure Docs</ulink>.</p>
+    <p>Gets the properties of a storage account’s Blob service. For more information, see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-properties">Azure Docs</a>.</p>
 
     <p></p>
   syntax:
@@ -104,7 +104,7 @@ items:
     startLine: 129
   package: com.microsoft.azure.storage.blob
   summary: >-
-    <p>Retrieves statistics related to replication for the Blob service. It is only available on the secondary location endpoint when read-access geo-redundant replication is enabled for the storage account. For more information, see the <ulink url="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-stats">Azure Docs</ulink>.</p>
+    <p>Retrieves statistics related to replication for the Blob service. It is only available on the secondary location endpoint when read-access geo-redundant replication is enabled for the storage account. For more information, see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-stats">Azure Docs</a>.</p>
 
     <p></p>
   syntax:
@@ -129,7 +129,7 @@ items:
     startLine: 87
   package: com.microsoft.azure.storage.blob
   summary: >-
-    <p>Returns a single segment of containers starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Container names are returned in lexicographic order. After getting a segment, process it, and then call ListContainers again (passing the the previously-returned Marker) to get the next segment. For more information, see the <ulink url="https://docs.microsoft.com/rest/api/storageservices/list-containers2">Azure Docs</ulink>.</p>
+    <p>Returns a single segment of containers starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Container names are returned in lexicographic order. After getting a segment, process it, and then call ListContainers again (passing the the previously-returned Marker) to get the next segment. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/list-containers2">Azure Docs</a>.</p>
 
     <p></p>
   syntax:
@@ -193,7 +193,7 @@ items:
     startLine: 114
   package: com.microsoft.azure.storage.blob
   summary: >-
-    <p>Sets properties for a storage account's Blob service endpoint. For more information, see the <ulink url="https://docs.microsoft.com/en-us/rest/api/storageservices/set-blob-service-properties">Azure Docs</ulink>.</p>
+    <p>Sets properties for a storage account's Blob service endpoint. For more information, see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-blob-service-properties">Azure Docs</a>.</p>
 
     <p></p>
   syntax:
@@ -430,7 +430,7 @@ references:
   nameWithType: ContainerURL
   fullName: com.microsoft.azure.storage.blob.ContainerURL
   type: Class
-  summary: '<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._service_u_r_l" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the following for more information on containers: <ulink url="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</ulink></p>'
+  summary: '<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._service_u_r_l" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the following for more information on containers: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p>'
   syntax:
     content: public class ContainerURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob._service_u_r_l
@@ -440,7 +440,7 @@ references:
   nameWithType: ServiceURL
   fullName: com.microsoft.azure.storage.blob.ServiceURL
   type: Class
-  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <ulink url="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</ulink></p>'
+  summary: '<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please refer to the following for more information on containers: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p>'
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.models._service_list_containers_segment_response
   parent: com.microsoft.azure.storage.blob.models

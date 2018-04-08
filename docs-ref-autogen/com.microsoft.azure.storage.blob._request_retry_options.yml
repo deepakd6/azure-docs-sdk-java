@@ -95,7 +95,7 @@ items:
       description: >-
         <p>If a secondaryHost is specified, retries will be tried against this host. If secondaryHost is<code>null 
 
-            </code> (the default) then operations are not retried against another host. NOTE: Before setting this field, make sure you understand the issues around reading stale and potentially-inconsistent data at this webpage: <ulink url="https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs">https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs</ulink></p>
+            </code> (the default) then operations are not retried against another host. NOTE: Before setting this field, make sure you understand the issues around reading stale and potentially-inconsistent data at this webpage: <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs">https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs</a></p>
 - uid: com.microsoft.azure.storage.blob._request_retry_options.getTryTimeout()
   id: getTryTimeout()
   parent: com.microsoft.azure.storage.blob._request_retry_options
@@ -166,7 +166,7 @@ items:
       description: >-
         <p>If a secondaryHost is specified, retries will be tried against this host. If secondaryHost is<code>null 
 
-            </code> (the default) then operations are not retried against another host. NOTE: Before setting this field, make sure you understand the issues around reading stale and potentially-inconsistent data at this webpage: <ulink url="https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs">https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs</ulink></p>
+            </code> (the default) then operations are not retried against another host. NOTE: Before setting this field, make sure you understand the issues around reading stale and potentially-inconsistent data at this webpage: <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs">https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs</a></p>
 references:
 - uid: 93de0ef9com.microsoft.azure.storage.blob._request_retry_options
   spec.java:

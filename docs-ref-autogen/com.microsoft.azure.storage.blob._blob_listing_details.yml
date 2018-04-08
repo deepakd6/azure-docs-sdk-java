@@ -235,6 +235,6 @@ references:
   nameWithType: ContainerURL
   fullName: com.microsoft.azure.storage.blob.ContainerURL
   type: Class
-  summary: '<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._service_u_r_l" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the following for more information on containers: <ulink url="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</ulink></p>'
+  summary: '<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob._service_u_r_l" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the following for more information on containers: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction</a></p>'
   syntax:
     content: public class ContainerURL
